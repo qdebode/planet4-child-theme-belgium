@@ -1,0 +1,26 @@
+{
+  "name": "greenpeace/planet4-child-theme-belgium",
+  "description": "Child theme for the Belgium Planet 4 website",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "license": "GPL-3.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/greenpeace/planet4-child-theme-belgium"
+  },
+  "extra": {
+    "installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "require": {
+  }
+}
